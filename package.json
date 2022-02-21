@@ -1,0 +1,24 @@
+{
+  "name": "swc-load-transform-reduced-test-case",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "bundle": "spack",
+    "build": "swc --out-dir build src/index.ts"
+  },
+  "keywords": [],
+  "author": "Tom Vincent <git@tlvince.com> (https://tlvince.com/)",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8"
+  },
+  "devDependencies": {
+    "@swc/cli": "0.1.55",
+    "@swc/core": "1.2.143"
+  },
+  "dependencies": {
+    "sanitize-html": "2.7.0"
+  }
+}
